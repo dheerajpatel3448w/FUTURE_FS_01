@@ -13,7 +13,7 @@ function Projects() {
       liveDemo: "https://interview-aifrontend.vercel.app/",
       githubFrontend: "https://github.com/dheerajpatel3448w/interviewAifrontend",
       githubBackend: "https://github.com/dheerajpatel3448w/interviewbackend",
-      image: "https://via.placeholder.com/600x400?text=AI+Interview+Bot"
+      image: "https://tse4.mm.bing.net/th/id/OIP.0UapDh5SSjYPbboUQDnfyQHaE8?pid=Api&P=0&h=180"
     },
     {
       id: 2,
@@ -23,7 +23,7 @@ function Projects() {
       liveDemo: null,
       githubFrontend: "https://github.com/dheerajpatel3448w/uber-frontend",
       githubBackend: "https://github.com/dheerajpatel3448w/uber-backend",
-      image: "https://via.placeholder.com/600x400?text=Uber+Clone"
+      image: "https://tse2.mm.bing.net/th/id/OIP.Nn_TPZTSkbrwUflwnXHezQHaDP?pid=Api&P=0&h=180"
     }
   ];
 

@@ -6,7 +6,11 @@ const app = express();
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
-app.use(cors())
+app.use(cors({
+     origin: "https://your-frontend.vercel.app", // Vercel deployed link
+  methods: ["GET", "POST", "PUT", "DELETE"],
+  credentials: true
+}))
 app.use("/", Router1);
 
 connectdb().then(()=>{
