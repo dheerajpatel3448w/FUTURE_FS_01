@@ -7,7 +7,7 @@ const app = express();
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(cors({
-     origin: "https://devdheerajportfolio.vercel.app", // Vercel deployed link
+     origin: ["https://devdheerajportfolio.vercel.app","http://localhost:5173"], // Vercel deployed link
   methods: ["GET", "POST", "PUT", "DELETE"],
   credentials: true
 }))

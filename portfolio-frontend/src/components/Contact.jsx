@@ -23,7 +23,9 @@ function Contact() {
     e.preventDefault();
     setIsSubmitting(true);
 
-const d = await axios.post(`${import.meta.env.VITE_API_URL}/contact`, formData);
+const d = await axios.post(`${import.meta.env.VITE_API_URL}/contact`, formData,{
+  withCredentials: true
+});
     if (d.status !== 201) {
       alert('Failed to send message. Please try again later.');
       }
